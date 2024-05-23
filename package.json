@@ -1,0 +1,19 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "roosevelt": "nodemon app/roosevelt.js",
+    "mnuchin": "nodemon app/mnuchin.js",
+    "dexter": "nodemon app/dexter.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.2",
+    "puppeteer": "^21.6.0"
+  }
+}
