@@ -5,15 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "roosevelt": "nodemon app/roosevelt.js",
-    "mnuchin": "nodemon app/mnuchin.js",
-    "dexter": "nodemon app/dexter.js",
+    "roosevelt": "node app/roosevelt.js",
+    "mnuchin": "node app/mnuchin.js",
+    "dexter": "node app/dexter.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^3.0.2",
     "puppeteer": "^21.6.0"
   }
 }
